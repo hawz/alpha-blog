@@ -1,0 +1,74 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+header {
+  background-color: salmon;
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  margin: 20px auto;
+}
+
+nav {
+  background: #bada55;
+}
+
+nav ul {
+  list-style: none;
+  color: #333;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  width: 25%;
+  text-align: center;
+}
+
+nav ul li a {
+  padding: 10px;
+  display: block;
+}
+
+nav ul li a:hover {
+  background: lightgreen;
+  cursor: pointer;
+  color: #fff;
+}
+
+footer {
+  padding: 30px;
+  background-color: #ccc;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #2196f3;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
