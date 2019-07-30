@@ -1,2 +1,55 @@
+$navbar-default-bg: #BADA55;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #FFF;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+  &:hover {
+    color: #FFF;
+    text-decoration: none;
+  }
+}
+
+footer {
+  margin-top: 45px;
+  border-top: 1px solid #eaeaea;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #BADA55;
+  padding: 20px;
+  color: #777;
+  small {
+    float: left;
+  }
+  nav {
+    ul {
+      float: right;
+      list-style: none;
+      margin: 0;
+    }
+  }
+}
+
+.jumbotron {
+  background-image: asset-url('sardinia.jpg');
+  background-position-y: -90px;
+  background-size: cover;
+  height: 550px;
+
+  h1 {
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: -1px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+  }
+}
