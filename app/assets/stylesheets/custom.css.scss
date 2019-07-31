@@ -16,27 +16,7 @@ $navbar-default-bg: #BADA55;
   }
 }
 
-footer {
-  margin-top: 45px;
-  border-top: 1px solid #eaeaea;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #BADA55;
-  padding: 20px;
-  color: #777;
-  small {
-    float: left;
-  }
-  nav {
-    ul {
-      float: right;
-      list-style: none;
-      margin: 0;
-    }
-  }
-}
+
 
 .jumbotron {
   background-image: asset-url('sardinia.jpg');
@@ -77,4 +57,31 @@ footer {
 .article-body {
   border-top: 1px solid #eaeaea;
   padding: 15px 0;
+}
+
+.listing {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer {
+  margin-top: 45px;
+  border-top: 1px solid #eaeaea;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #BADA55;
+  padding: 20px;
+  color: #777;
+  small {
+    float: left;
+  }
+  nav {
+    ul {
+      float: right;
+      list-style: none;
+      margin: 0;
+    }
+  }
 }
