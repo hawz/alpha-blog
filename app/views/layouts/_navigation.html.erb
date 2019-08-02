@@ -38,7 +38,6 @@
             <% end %>
             <% if logged_in? and current_user.admin? %>
               <li role="separator" class="divider"></li>
-              <li><a href="#">Separated link</a></li>
               <li><%= link_to "Create New Category", new_category_path %></li>
             <% end %>
           </ul>
